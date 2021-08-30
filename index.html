@@ -13,7 +13,7 @@
 </head>
 <body>
     <!--Шапка-->
-    <header class=" container header">
+    <header class="header">
        <div class="container headernav">
            <a href="" class="logo site-nav" > <span class="span-logo">Web</span>Studio</a>
             <nav class="navigation site-nav">
@@ -39,7 +39,8 @@
                <button type="button" class="button">Заказать услугу</button>
            </section>
               <!-- Секция-описание -->
-         <section class="container servies"> 
+         <section class="servies"> 
+             <div class="container servies">
                 <h2 class="visually-hidden"> Услуги бизнеса</h2>
                 <ul class="title-second list">
                    <li class="servies-li">
@@ -59,41 +60,65 @@
                     <p class="section-description" >Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                  </li>
                 </ul>
+             </div>
+                
          </section>
            
           
        <!--Секция описание услуг-->
        <section class="imgsection">
-           <h2 class=" section-title img" >Чем мы занимаемся</h2>
-           <ul class=" container imgtitle list">
-               <li class="itemsimg"> <img src="./images/image1.jpg" alt="печатает на компе" width="370" height="294"></li>
-               <li class="itemsimg" > <img src="./images/image2.jpg" alt="ввод даных" width="370" height="294"></li>
-               <li class="itemsimg" ><img src="./images/image3.jpg" alt="просмотр страниц" width="370" height="294"></li>
-           </ul>
+           <div class=" container imgsection">
+            <h2 class=" section-title img" >Чем мы занимаемся</h2>
+            <ul class=" imgtitle list">
+                <li class="itemsimg"> <img src="./images/image1.jpg" alt="печатает на компе" width="370" height="294"></li>
+                <li class="itemsimg" > <img src="./images/image2.jpg" alt="ввод даных" width="370" height="294"></li>
+                <li class="itemsimg" ><img src="./images/image3.jpg" alt="просмотр страниц" width="370" height="294"></li>
+            </ul>
+           </div>  
        </section>
        <!--Команда-->
        <section class="teamsection">
-           <h2 class="section-title team">Наша команда</h2>
-           <ul class=" container teamtitle list">
-               <li class="itemsimg" > 
-                   <img src="./images/img1.jpg" alt="Игорь" width="270" height="260">
-                   <h3 class="second-title name">Игорь Демьяненко</h3>
-                   <p class="page-name">Product Designer</p>
-              </li>
-               <li class="itemsimg">
-                   <img src="./images/img2.jpg" alt="Ольга" width="270" height="260">
-                    <h3 class="second-title name">Ольга Репина</h3>
-                     <p class="page-name" >Frontend Developer</p>
+           <div class="container teamsection">
+            <h2 class="section-title team">Наша команда</h2>
+            <ul class=" teamtitle list">
+                <li class="itemsimg image" > 
+                    <img src="./images/img1.jpg" alt="Игорь" width="270" height="260">
+                    <div class="comanda">
+                        <h3 class="second-title name">Игорь Демьяненко</h3>
+                    <p class="page-name">Product Designer</p>
+
+                    </div>
+                    
                </li>
-               <li class="itemsimg"><img src="./images/img3.jpg" alt="Николай" width="270" height="260">
-                      <h3 class="second-title name">Николай Тарасов</h3>
-                       <p class="page-name" >Marketing</p>
+                <li class="itemsimg image">
+                    <img src="./images/img2.jpg" alt="Ольга" width="270" height="260">
+                    <div class="comanda"> 
+                        <h3 class="second-title name">Ольга Репина</h3>
+                      <p class="page-name" >Frontend Developer</p>
+
+                    </div>
+                     
                 </li>
-               <li class="itemsimg" ><img src="./images/img4.jpg" alt="Михаил" width="270" height="260">
-                      <h3 class="second-title name" >Михаил Ермаков</h3>
-                      <p class="page-name">UI Designer</p>
+                <li class="itemsimg image">
+                    <img src="./images/img3.jpg" alt="Николай" width="270" height="260">
+                    <div class="comanda" >
+                        <h3 class="second-title name">Николай Тарасов</h3>
+                        <p class="page-name" >Marketing</p>
+
+                    </div>
+                      
                  </li>
-           </ul>
+                <li class="itemsimg image" >
+                    <img src="./images/img4.jpg" alt="Михаил" width="270" height="260">
+                    <div class="comanda" >
+                        <h3 class="second-title name" >Михаил Ермаков</h3>
+                       <p class="page-name">UI Designer</p>
+
+                    </div>
+                       
+                  </li>
+            </ul>
+           </div>
 
        </section>
     </main>
